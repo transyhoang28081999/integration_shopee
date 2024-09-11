@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/service-definition-2.1.xsd">
+    <service verb="getRequest" noun="OrderList">
+
+    </service>
+    <service verb="getResponse" noun="OrderList">
+
+    </service>
+    <service verb="getRequest" noun="OrderDetail">
+
+    </service>
+    <service verb="getResponse" noun="OrderDetail">
+        <description>Từ các order detail này, sẽ lấy được sđt và tên khách hàng ==> Tạo ra Leads</description>
+
+    </service>
+</services>
